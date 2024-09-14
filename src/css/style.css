@@ -10983,23 +10983,3 @@ body.overlay::after {
   }
 }
 
-/* For desktop and larger screens */
-img {
-  width: 100%; /* The logo will take the full width of its container */
-  max-width: 200px; /* The logo won't exceed this width */
-  height: auto; /* Keep the aspect ratio */
-}
-
-/* For smaller screens like tablets */
-@media only screen and (max-width: 768px) {
-  img {
-      max-width: 150px;
-  }
-}
-
-/* For mobile phones */
-@media only screen and (max-width: 480px) {
-  img {
-      max-width: 120px;
-  }
-}
