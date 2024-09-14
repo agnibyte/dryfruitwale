@@ -2146,15 +2146,16 @@
                         <div class="col-lg-4">
                             <div class="footer__brand-info">
                                 <div class="footer__brand-info-logo">
-                                    <img src="src/images/logo-nl-white.png" alt="logo" />
-                                </div>
+                                    <img src="src/images/logo-nl-white.png" alt="logo" class="responsive-footer-logo" />
+                                </div>                                
                                 <p class="font-body--md-400">
-                                    Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.
+                                    Healthy Bites, Happy Lives
+                                    ADDRESS:- SHANTI NAGAR MAHARASHTRA NAGAR MANKHURD MUMBAI 400088
                                 </p>
                                 <div class="footer__brand-info-contact">
-                                    <a href="#"><span>(219)555-0114</span></a>
+                                    <a href="#"><span>+91 8976208366</span></a>
                                     or
-                                    <a href="#"><span>Proxy@gmail.com</span></a>
+                                    <a href="#"><span>1981rameshjadhav@gmail.com</span></a>
                                 </div>
                             </div>
                         </div>
@@ -2265,8 +2266,49 @@
             </div>
         </footer>
         <!--Footer Section end  -->
+
+        <!-- Modal -->
+        <div class="modal fade newsletter-popup" id="newsletter" tabindex="-1" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <div class="row newsletter-popup__content">
+                            <div class="col-lg-5">
+                                <div class="newsletter-popup__img-wrapper">
+                                    <img src="src/images/banner/banner-sm-18.png" alt="newsletter" />
+                                </div>
+                            </div>
+                            <div class="col-lg-7">
+                                <div class="newsletter-popup__text-content">
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                    <h5 class="font-title--xl">Subscribe to Our Newsletter</h5>
+                                    <p class="font-body--lg">
+                                        Subscribe to our newlletter and Save your
+                                        <span>20% money </span> with discount code today.
+                                    </p>
+
+                                    <form action="#">
+                                        <div class="contact-mail">
+                                            <input type="email" placeholder="Enter Your email" />
+                                            <button class="button button--md">Subscribe</button>
+                                        </div>
+                                        <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="doNotShowNewsletter" />
+                                            <label class="form-check-label font-body--md-400" for="doNotShowNewsletter">
+                                                Do not show this window
+                                            </label>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <!-- Product Quick View Modal -->
-        <div class="modal fade" id="productView" tabindex="-1" aria-labelledby="productViewLabel" aria-hidden="true">
+        <div class="modal fade products" id="productView" tabindex="-1" aria-labelledby="productViewLabel" aria-hidden="true">
             <div class="modal-dialog modal-xl modal-dialog-centered">
                 <div class="modal-content">
                     <div class="modal-body">
@@ -2545,12 +2587,14 @@
         </div>
 
         <script src="src/lib/js/jquery.min.js"></script>
-        <script src="src/lib/js/swiper-bundle.min.js"></script>
         <script src="src/lib/js/venobox.min.js"></script>
+        <script src="src/lib/js/swiper-bundle.min.js"></script>
         <script src="src/lib/js/bvselect.js"></script>
         <script src="src/lib/js/bootstrap.bundle.min.js"></script>
+        <script src="src/lib/js/jquery.syotimer.min.js"></script>
         <script src="src/js/main.js"></script>
-       <!--Start of Tawk.to Script-->
+        <script src="src/js/home1.js"></script>
+        <!--Start of Tawk.to Script-->
 <script type="text/javascript">
     var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
     (function(){
