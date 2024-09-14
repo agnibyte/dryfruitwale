@@ -11000,3 +11000,21 @@ body.overlay::after {
       max-width: 120px; /* Even smaller size for mobile screens */
   }
 }
+
+.responsive-footer-logo {
+  width: 100%; /* Ensures the image resizes based on the container */
+  max-width: 200px; /* Set the maximum size for larger screens */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .responsive-footer-logo {
+      max-width: 150px; /* Smaller size for tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-footer-logo {
+      max-width: 120px; /* Even smaller size for mobile screens */
+  }
+}
