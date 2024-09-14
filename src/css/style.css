@@ -10983,3 +10983,20 @@ body.overlay::after {
   }
 }
 
+.responsive-logo {
+  width: 100%; /* Ensures the image resizes based on the container */
+  max-width: 200px; /* Set the maximum size for larger screens */
+  height: auto; /* Maintain the aspect ratio */
+}
+
+@media (max-width: 768px) {
+  .responsive-logo {
+      max-width: 150px; /* Smaller size for tablet screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-logo {
+      max-width: 120px; /* Even smaller size for mobile screens */
+  }
+}
